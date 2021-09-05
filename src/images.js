@@ -4,7 +4,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min) + 1);
   }
   const number = getRandomInt(1, 6);
-  const urlpath = `url(images/${number}.jpg)`;
+  const urlpath = `url(image/${number}.jpg)`;
   document.body.style.background = urlpath;
   document.body.style.backgroundSize = "cover";
   
